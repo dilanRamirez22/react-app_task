@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+  }
+  .contenedor-crearTareas {
+    display: flex;
+    padding-top: 75px;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 70%;
+    height: 300px;
+  }
+  
+  .contenedor-tarea {
+    display:flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor-tarea .lista-tarea{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+  }
+  
+  .lista-tarea .nueva-tarea{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border: 1px solid #E5E7E9 ;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 5px 10px;
+  }
+  
+  .activo{
+    display:none !important;
+  }
+
+  .btn {
+     margin: 0px 5px !important;
+  }
+
+  p{
+    margin: auto !important;
+  }
